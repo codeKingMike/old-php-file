@@ -25,8 +25,6 @@
 
 
 
-
-
     <?php
       echo "<h1 style='text-align:center;'>Hello, PHP!</h1><br>";
 
@@ -35,7 +33,7 @@
       $age = 28;
       $state = ["California", "New York", "Texas", "Washington"];
 
-      echo $fName." is from ".$state['0']." and is ".$age." years old.<br>";
+      echo $fName." ".$lName." is from ".$state['0']." and is ".$age." years old.<br>";
 
       echo $fName." loves to code and learn as well.<br>";
 
@@ -86,32 +84,32 @@
 
 
 
-
-Insert nr of subjects  
+ 
+     <!-- Insert nr of subjects   
 <input type="text" id="row"></input>
 <button onclick="myFunction()" >Sub </button>
 <div id="container"></div><!--hapesira qe i kemi lene tabeles ne faqe-->
-<script>
+<script> -->
 
-function myFunction(){
+// function myFunction(){
 
 
-    //Get the value the user gave
-    var nr = document.getElementById("row").value;
-    //e kthej ne int nga string qe esht
-    var c=parseInt(nr);
-    var div=document.getElementById("container");
-     div.innerHTML = " ";
-      div.innerHTML += "<table border='1' id='table'>";
-     document.getElementById('table').innerHTML += "<tr><td>SUBJECT</td><td>POINTS</td></tr>"; 
+//     //Get the value the user gave
+//     var nr = document.getElementById("row").value;
+//     //e kthej ne int nga string qe esht
+//     var c=parseInt(nr);
+//     var div=document.getElementById("container");
+//      div.innerHTML = " ";
+//       div.innerHTML += "<table border='1' id='table'>";
+//      document.getElementById('table').innerHTML += "<tr><td>SUBJECT</td><td>POINTS</td></tr>"; 
 
-      for (i = 0; i < c; i++) {
+//       for (i = 0; i < c; i++) {
 
-        //Write the rows and cells
-        document.getElementById('table').innerHTML += "<tr><td>  one </td><td>  two </td></tr>";
-}
-}
-</script>
+//         //Write the rows and cells
+//         document.getElementById('table').innerHTML += "<tr><td>  one </td><td>  two </td></tr>";
+// }
+// }
+</script>     
 
 
 
